@@ -8,7 +8,7 @@ import './App.css'
 import { Authenticator } from '@aws-amplify/ui-react'
 
 //Lambda
-import { InvokeCommand, InvokeWithResponseStreamCommand, LambdaClient } from '@aws-sdk/client-lambda'
+import { InvokeCommand, LambdaClient } from '@aws-sdk/client-lambda'
 import { fetchAuthSession } from 'aws-amplify/auth'
 
 import outputs from "../amplify_outputs.json"
