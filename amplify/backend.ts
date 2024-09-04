@@ -12,12 +12,6 @@ const backend = defineBackend({
 const authenticatedUserIamRole = backend.auth.resources.authenticatedUserIamRole;
 backend.helloWorld.resources.lambda.grantInvoke(authenticatedUserIamRole);
 
-const bedrockStatement = new iam.PolicyStatement({
-    actions: ["bedrock:InvokeModel", "bedrock:InvokeModelWithResponseStream"],
-    resources: ["arn:aws:bedrock:us-east-1::foundation-model/*"]
-})
-
-
 backend.addOutput({
 	custom: {
 		helloWorldFunctionName: backend.helloWorld.resources.lambda.functionName,
