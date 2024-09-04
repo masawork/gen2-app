@@ -22,7 +22,7 @@
         "validateOnSynth": false,
         "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
         "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/cc643d14e59fcdd32c1c8ac2e55b442c752d2e30e503e04fc2c781242b78b67a.json",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/0717d61ccbdf14394a8caebc5360c1112eb2d8d1fdba5134be8d1475229174d1.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
         "additionalDependencies": [
@@ -123,12 +123,6 @@
           {
             "type": "aws:cdk:logicalId",
             "data": "referencetoamplifygen2appmadosandboxbacfb7bad0functionNestedStackfunctionNestedStackResource85376CFFOutputsamplifygen2appmadosandboxbacfb7bad0functionhelloworldlambda39FFD611Arn"
-          }
-        ],
-        "/amplify-gen2app-mado-sandbox-bacfb7bad0/auth/reference-to-amplifygen2appmadosandboxbacfb7bad0functionNestedStackfunctionNestedStackResource85376CFFOutputs.amplifygen2appmadosandboxbacfb7bad0functioninvokebedrocklambda9BC4246AArn": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "referencetoamplifygen2appmadosandboxbacfb7bad0functionNestedStackfunctionNestedStackResource85376CFFOutputsamplifygen2appmadosandboxbacfb7bad0functioninvokebedrocklambda9BC4246AArn"
           }
         ],
         "/amplify-gen2app-mado-sandbox-bacfb7bad0/auth/amplifygen2appmadosandboxbacfb7bad0authamplifyAuthUserPool924E0B6FRef": [
@@ -281,24 +275,6 @@
             "data": "helloworldlambda89B27E55"
           }
         ],
-        "/amplify-gen2app-mado-sandbox-bacfb7bad0/function/invoke-bedrock-lambda/ServiceRole/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "invokebedrocklambdaServiceRole2FCBF387"
-          }
-        ],
-        "/amplify-gen2app-mado-sandbox-bacfb7bad0/function/invoke-bedrock-lambda/ServiceRole/DefaultPolicy/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "invokebedrocklambdaServiceRoleDefaultPolicy03E99BDF"
-          }
-        ],
-        "/amplify-gen2app-mado-sandbox-bacfb7bad0/function/invoke-bedrock-lambda/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "invokebedrocklambda0FD83EDB"
-          }
-        ],
         "/amplify-gen2app-mado-sandbox-bacfb7bad0/function/CDKMetadata/Default": [
           {
             "type": "aws:cdk:logicalId",
@@ -317,22 +293,10 @@
             "data": "amplifygen2appmadosandboxbacfb7bad0functionhelloworldlambda39FFD611Arn"
           }
         ],
-        "/amplify-gen2app-mado-sandbox-bacfb7bad0/function/amplifygen2appmadosandboxbacfb7bad0functioninvokebedrocklambda9BC4246AArn": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "amplifygen2appmadosandboxbacfb7bad0functioninvokebedrocklambda9BC4246AArn"
-          }
-        ],
         "/amplify-gen2app-mado-sandbox-bacfb7bad0/function/amplifygen2appmadosandboxbacfb7bad0functionhelloworldlambda39FFD611Ref": [
           {
             "type": "aws:cdk:logicalId",
             "data": "amplifygen2appmadosandboxbacfb7bad0functionhelloworldlambda39FFD611Ref"
-          }
-        ],
-        "/amplify-gen2app-mado-sandbox-bacfb7bad0/function/amplifygen2appmadosandboxbacfb7bad0functioninvokebedrocklambda9BC4246ARef": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "amplifygen2appmadosandboxbacfb7bad0functioninvokebedrocklambda9BC4246ARef"
           }
         ],
         "/amplify-gen2app-mado-sandbox-bacfb7bad0/function.NestedStack/function.NestedStackResource": [

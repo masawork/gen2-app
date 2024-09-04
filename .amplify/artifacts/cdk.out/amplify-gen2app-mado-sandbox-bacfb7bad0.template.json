@@ -145,13 +145,6 @@
         "Outputs.amplifygen2appmadosandboxbacfb7bad0functionhelloworldlambda39FFD611Ref"
        ]
       },
-      "\",\"",
-      {
-       "Fn::GetAtt": [
-        "function1351588B",
-        "Outputs.amplifygen2appmadosandboxbacfb7bad0functioninvokebedrocklambda9BC4246ARef"
-       ]
-      },
       "\"]"
      ]
     ]
@@ -169,13 +162,6 @@
         "Outputs.amplifygen2appmadosandboxbacfb7bad0functionhelloworldlambda39FFD611Ref"
        ]
       },
-      "\",\"invokeBedrockFunctionName\":\"",
-      {
-       "Fn::GetAtt": [
-        "function1351588B",
-        "Outputs.amplifygen2appmadosandboxbacfb7bad0functioninvokebedrocklambda9BC4246ARef"
-       ]
-      },
       "\"},\"version\":\"1.1\"}"
      ]
     ]
@@ -191,12 +177,6 @@
       "Fn::GetAtt": [
        "function1351588B",
        "Outputs.amplifygen2appmadosandboxbacfb7bad0functionhelloworldlambda39FFD611Arn"
-      ]
-     },
-     "referencetoamplifygen2appmadosandboxbacfb7bad0functionNestedStackfunctionNestedStackResource85376CFFOutputsamplifygen2appmadosandboxbacfb7bad0functioninvokebedrocklambda9BC4246AArn": {
-      "Fn::GetAtt": [
-       "function1351588B",
-       "Outputs.amplifygen2appmadosandboxbacfb7bad0functioninvokebedrocklambda9BC4246AArn"
       ]
      }
     },
@@ -226,7 +206,7 @@
        {
         "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}"
        },
-       "/46e89f329b6cba37940e1eca66de85487e9b04d2ac0f12eea756a91c27177ad5.json"
+       "/382a1c4adc369c132b2c191fbba42d45f0920c0f32baa35917fe23c87deca2e0.json"
       ]
      ]
     }
@@ -268,7 +248,7 @@
        {
         "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}"
        },
-       "/ec52bfdaf1eee12e8b6ac9b84a96bc14d59f81bd207fd1c0289f47102d490696.json"
+       "/050a4700606f1a07cbb7adf07a15715879213f64b11516f94f20729c82e32275.json"
       ]
      ]
     }

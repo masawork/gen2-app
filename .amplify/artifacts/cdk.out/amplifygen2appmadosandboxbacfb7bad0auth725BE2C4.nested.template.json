@@ -214,26 +214,6 @@
          ]
         }
        ]
-      },
-      {
-       "Action": "lambda:InvokeFunction",
-       "Effect": "Allow",
-       "Resource": [
-        {
-         "Ref": "referencetoamplifygen2appmadosandboxbacfb7bad0functionNestedStackfunctionNestedStackResource85376CFFOutputsamplifygen2appmadosandboxbacfb7bad0functioninvokebedrocklambda9BC4246AArn"
-        },
-        {
-         "Fn::Join": [
-          "",
-          [
-           {
-            "Ref": "referencetoamplifygen2appmadosandboxbacfb7bad0functionNestedStackfunctionNestedStackResource85376CFFOutputsamplifygen2appmadosandboxbacfb7bad0functioninvokebedrocklambda9BC4246AArn"
-           },
-           ":*"
-          ]
-         ]
-        }
-       ]
       }
      ],
      "Version": "2012-10-17"
@@ -626,9 +606,6 @@
  },
  "Parameters": {
   "referencetoamplifygen2appmadosandboxbacfb7bad0functionNestedStackfunctionNestedStackResource85376CFFOutputsamplifygen2appmadosandboxbacfb7bad0functionhelloworldlambda39FFD611Arn": {
-   "Type": "String"
-  },
-  "referencetoamplifygen2appmadosandboxbacfb7bad0functionNestedStackfunctionNestedStackResource85376CFFOutputsamplifygen2appmadosandboxbacfb7bad0functioninvokebedrocklambda9BC4246AArn": {
    "Type": "String"
   }
  },

@@ -26,7 +26,6 @@
   },
   "version": "1.1",
   "custom": {
-    "helloWorldFunctionName": "amplify-gen2app-mado-sand-helloworldlambda89B27E55-27Hfej4eqNmO",
-    "invokeBedrockFunctionName": "amplify-gen2app-mado-sand-invokebedrocklambda0FD83-FljSBS4Q5sky"
+    "helloWorldFunctionName": "amplify-gen2app-mado-sand-helloworldlambda89B27E55-27Hfej4eqNmO"
   }
 }
